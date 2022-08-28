@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "debug": "npx electron .",
-    "build:windows": "npx electron-packager ./ Telegram --out ./outputs --asar --win --overwrite"
+    "build:windows": "npx electron-packager ./ Telegram --out ./outputs --asar --win --icon=./icon.ico --overwrite"
   },
   "author": "Hailey",
   "license": "MIT",
