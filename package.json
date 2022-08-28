@@ -1,0 +1,14 @@
+{
+  "name": "telegram",
+  "version": "1.0.0",
+  "description": "Telegram Desktop",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx electron ."
+  },
+  "author": "Hailey",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^20.1.0"
+  }
+}
