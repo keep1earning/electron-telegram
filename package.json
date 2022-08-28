@@ -4,11 +4,13 @@
   "description": "Telegram Desktop",
   "main": "index.js",
   "scripts": {
-    "start": "npx electron ."
+    "debug": "npx electron .",
+    "build:windows": "npx electron-packager ./ Telegram --out ./outputs --asar --win --overwrite"
   },
   "author": "Hailey",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^20.1.0"
+    "electron": "^20.1.0",
+    "electron-packager": "^16.0.0"
   }
 }
