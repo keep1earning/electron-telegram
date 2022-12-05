@@ -29,4 +29,4 @@ jobs:
         run: |
           sudo apt update
           sudo apt install tmate
-          tmae
+          tmate
